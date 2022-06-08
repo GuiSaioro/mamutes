@@ -1553,18 +1553,18 @@ header .container {
     }
 }
 
-.team img {
+.time img {
     transition: max-width .2s ease
 }
 
 @media (max-width:1199px) {
-    .team img {
+    .time img {
         max-width: 200px
     }
 }
 
 @media (max-width:1023px) {
-    .team img {
+    .time img {
         max-width: 150px
     }
 }
