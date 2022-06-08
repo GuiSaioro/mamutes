@@ -1553,18 +1553,18 @@ header .container {
     }
 }
 
-.time img {
-   max-width:-webkit-fill-available 
+.time-img {
+    transition: max-width .2s ease
 }
 
 @media (max-width:1199px) {
-    .time img {
+    .time-img {
         max-width: 200px
     }
 }
 
 @media (max-width:1023px) {
-    .time img {
+    .time-img {
         max-width: 150px
     }
 }
@@ -2221,8 +2221,8 @@ header .container {
     }
 
     img {
-        max-width: fit-content;
-        height: auto;
+        max-width: -webkit-fill-available;
+        height: 16em;
     }
 
     .gm-style img {
@@ -11530,7 +11530,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span:before {
 
 .intro-section .container {
     max-width: 960px;
-    text-align: left;
+    text-align: center;
 }
 
 .intro-section .title {
@@ -12822,7 +12822,7 @@ iframe {
     min-height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: inherit;
 }
 
 @media (max-width:767px) {
