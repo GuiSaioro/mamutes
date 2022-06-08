@@ -260,7 +260,8 @@ th {
     content: "\e94d";}
 
 .icon-arrow-right:before {
-    content: "\25bb"}
+    content: "\e94e";
+    }
 
 .icon-arrow-select:before {
     content: "\e904"
@@ -279,7 +280,7 @@ th {
 }
 
 .icon-facebook:before {
-    content: "\e908"
+    content: "\e91a"
 }
 
 .icon-whatsapp:before {
@@ -1553,18 +1554,19 @@ header .container {
     }
 }
 
-.time-img {
-    transition: max-width .2s ease
+.time {
+    transition: max-width .2s ease;
+    padding-top: 10px;
 }
 
 @media (max-width:1199px) {
-    .time-img {
-        max-width: 200px
+    .time {
+        max-width: inherit;
     }
 }
 
 @media (max-width:1023px) {
-    .time-img {
+    .time {
         max-width: 150px
     }
 }
@@ -2021,11 +2023,11 @@ header .container {
     }
 
     .icon-arrow-left:before {
-        content: "\e902"
+        content: "\e94d";
     }
 
     .icon-arrow-right:before {
-        content: "\e903"
+        content: "\e94e";
     }
 
     .icon-arrow-select:before {
@@ -2221,7 +2223,7 @@ header .container {
     }
 
     img {
-        max-width: -webkit-fill-available;
+        max-width: fit-content;
         height: 16em;
     }
 
@@ -11073,7 +11075,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span:before {
     z-index: 2;
     position: relative;
     width: 100%;
-    padding-top: 25px
+    padding-top: 100px;
 }
 
 .main-banner p {
@@ -12837,7 +12839,7 @@ iframe {
 
 .home .main-banner .text {
     max-width: 1065px;
-    margin: 43px;
+    margin: auto;
     text-align: center;
 }
 
