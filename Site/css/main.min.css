@@ -1553,11 +1553,22 @@ header .container {
         max-width: 150px
     }
 }
+.bgtime{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%;
+    border-radius: 20px;
 
-.time {
-    transition: max-width .2s ease;
-    padding-top: 10px;
 }
+.time h1{
+    padding-top: 20px;
+}
+.time img:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1)
+}
+
 
 @media (max-width:1199px) {
     .time {
@@ -1567,7 +1578,7 @@ header .container {
 
 @media (max-width:1023px) {
     .time {
-        max-width: 150px
+        max-width: inherit
     }
 }
 
@@ -8022,7 +8033,9 @@ header .container {
         padding: 43px 0;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between
+        justify-content: space-between;
+        
+        
     }
 
     @media (max-width:767px) {
@@ -8074,7 +8087,7 @@ header .container {
         font-size: 14px;
         color: #fff;
         border-bottom: 1px solid #2876eb;
-        border-top: 1px solid #3528eb
+        border-top: 1px solid #3528eb;
     }
 
     .footer-bottom {
@@ -8271,9 +8284,9 @@ header .container {
     .fotos p a:hover {
         color: #00b2e4
     }
-    .fotosgrid a  {
-        padding: 0;
-        margin: 0;
+    .fotosgrid a img:hover  {
+        -webkit-transform: scale(1.1);
+         transform: scale(1.1)
     }
     .fotosgrid a img {
         border-radius: 10px;
@@ -10699,7 +10712,8 @@ p .sitebar button span #nav>li>a.has-drop-down-a span:before {
 }
 
 .blue {
-    color: #ffffff;}
+    color: #0063e4;
+    }
 
 .white {
     color: #fff
@@ -13304,7 +13318,8 @@ footer {
 
 footer a {
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
+    text-transform: lowercase;
 }
 
 footer a:hover {
@@ -13408,7 +13423,6 @@ footer a:hover {
 .footer-list,
 .footer-nav {
     font-size: 14px;
-    text-transform: uppercase;
     font-weight: 500;
     letter-spacing: .7px
 }
