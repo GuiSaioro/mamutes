@@ -2348,7 +2348,7 @@ header .container {
     .h2,
     h2 {
         font-size: 34px;
-        color: #00b2e4;
+        color: #ffffff;
         font-weight: 400;
         text-transform: uppercase;
         margin-bottom: 35px
@@ -14115,4 +14115,65 @@ button.btn {
 
 .application h3 {
     font-weight: 400
+}
+/*------------------------FlipBox------------------------*/
+
+.flip-box {
+    background-color: transparent;
+    width: 20vw;
+    height: 75vh;
+    border: 0 solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-box-back h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .links a{
+    display: block;
+  }
+  
+  .flipsection{
+    display:flex;
+    margin: auto;
+  }
+.text {
+    text-align: justify;
+}
+article img{
+    width: 600px;
+    height: auto;
 }
