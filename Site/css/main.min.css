@@ -14170,10 +14170,32 @@ button.btn {
     display:flex;
     margin: auto;
   }
-.text {
-    text-align: justify;
-}
-article img{
-    width: 600px;
+
+  .flip-box-front img {
+    width: fit-content;
     height: auto;
-}
+    margin-top: 30%;
+
+    }
+    @media(max-width:767px){
+        .flipsection{
+            display:block;
+          }
+          .flip-box {
+            width: 100vw;
+            height: 50vh;
+          }
+          .flip-box-front img {
+            width: 200px;
+            height: auto;
+        
+            }
+    }
+ /*-------------------------------------------*/
+  .text {
+    text-align: justify;
+    }
+    article img{
+        width: 600px;
+        height: auto;
+    }
