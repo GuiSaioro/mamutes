@@ -13180,7 +13180,9 @@ footer a:hover {
 }
 
 .social {
-    margin: 0 -10px 10px
+    margin: 0 -10px 10px;
+    z-index: 999;
+    position: relative;
 }
 
 @media (max-width:767px) {
@@ -13992,9 +13994,6 @@ button.btn {
 .membros-section{
     min-height: 90vh;
     background-image: url(../images/castle.jpg);
-}
-.membros{
-    
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14004,13 +14003,22 @@ button.btn {
 }
 .membros a{
     position: absolute;
-    font-size: 18px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.membros a:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    color: black;
+    text-decoration: none;
+    
+    
 }
 @media(max-width:767px) {
 
 }
 
-/*-----Galeria--------*/
+/*-----Galeria youtube--------*/
 .youtube{
     background-image: url(../images/bg-medieval.jpg);
     background-repeat: no-repeat;
