@@ -24,65 +24,11 @@ jQuery(function(){
 	initListRepresentativesFiltering();
 	initListIndustryDetailPageFiltering();
 	initListProductTypeDetailPageFiltering();
-	initCookies();
 });
 
 $(window).load(function(){
     //initMenuCropping();
 });
-
-function initCookies() {
-    var condition = $('#gdpr-cookies').size()
-        // && false
-    ;init(condition);
-
-    function init(condition) {
-        if (condition || condition == null) { 
-            var setCookie = "";
-            var messageBlock = $("#gdpr-cookies");
-              
-            setCookie = Cookies.get('gdpr-cookie'); 
-              
-            if(isCookieSet()){
-                
-                hideMessageBlock();
-            } else{
-                showMessageBlock();
-            }
-    
-            $(document).on('click', 'button.btn-accept-cookie', function(event) {
-                event.preventDefault();
-                hideMessageBlock();
-            
-                Cookies.remove('gdpr-cookie');
-                Cookies.set('gdpr-cookie', 'accepted', { expires: 365 });
-            });
-            
-            $(document).on('click', 'button.close-btn', function(event) {
-                hideMessageBlock();
-            
-                Cookies.remove('gdpr-cookie');
-            });
-       
-            function hideMessageBlock(){
-                messageBlock.hide(); 
-            }
-    
-            function showMessageBlock(){
-                messageBlock.show(); 
-            }
-    
-            function isCookieSet(){
-              if(setCookie == "accepted" || setCookie == "rejected"){
-                return true;
-              }
-            }
-        }
-       
-    }
-}
-
-
 function initProductPaginationChange()
 {
     var condition = $('.mainProduct').length

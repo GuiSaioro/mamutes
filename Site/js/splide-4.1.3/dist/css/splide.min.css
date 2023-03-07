@@ -65,7 +65,7 @@
     position: relative
 }
 .splide__slide h2 {
-    margin: 0;
+    margin: 8px 0px;
     text-align: center;
 }
 
@@ -117,7 +117,7 @@
 }
 @media(max-width:767px) {
     .splide__track {
-        height: 50vh;
+        height: 73vh;
         width: 80em;
         left: -25.8em;
     }
@@ -220,7 +220,7 @@
 }
 
 .splide__pagination {
-    bottom: .5em;
+    bottom: -3.5em;
     left: 0;
     padding: 0 1em;
     position: absolute;
@@ -326,7 +326,7 @@
 }
 
 .splide__track--nav>.splide__list>.splide__slide.is-active {
-    background-color: #2c27272a;
+    background-color: #2c27279c;
     border-radius: 20px;
 }
 .splide__track--nav>.splide__list>.splide__slide.is-active img{

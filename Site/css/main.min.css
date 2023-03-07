@@ -1913,108 +1913,6 @@ th {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-/*---------------Icones------------------------------*/
-.icon-service:before {
-    content: "\e900"
-}
-
-.icon-arrow-down:before {
-    content: "\e901"
-}
-
-.icon-arrow-left:before {
-    content: "\e94d";
-}
-
-.icon-arrow-right:before {
-    content: "\e94e";
-}
-
-.icon-arrow-select:before {
-    content: "\e904"
-}
-
-.icon-arrow-tabs:before {
-    content: "\e905"
-}
-
-.icon-arrow-top:before {
-    content: "\e906"
-}
-
-.icon-download:before {
-    content: "\e907"
-}
-
-.icon-facebook:before {
-    content: "\e908"
-}
-
-.whatsapp:before {
-    content: "\ea93"
-}
-
-.icon-linkedin:before {
-    content: "\e90a"
-}
-
-.icon-location:before {
-    content: "\e90b"
-}
-
-.icon-quote:before {
-    content: "\e90c"
-}
-
-.icon-search:before {
-    content: "\e90d"
-}
-
-.icon-service-02:before {
-    content: "\e90e"
-}
-
-.icon-service-03:before {
-    content: "\e90f"
-}
-
-.icon-supplier:before {
-    content: "\e910"
-}
-
-.icon-support-01:before {
-    content: "\e911"
-}
-
-.icon-support-02:before {
-    content: "\e912"
-}
-
-.icon-support-03:before {
-    content: "\e913"
-}
-
-.icon-twitter:before {
-    content: "\e94f"
-}
-
-.icon-view:before {
-    content: "\e915"
-}
-
-.icon-youtube:before {
-    content: "\F437"
-}
-.icon-instagram:before {
-    content:"\e920";
-}
-.icon-icon-close:before {
-    content: "\e900"
-}
-
-.icon-icon-accept:before {
-    content: "\e901"
-}
 
 #nav,
 #nav>li>.dropdown ul,
@@ -7425,14 +7323,6 @@ iframe {
 .map-info .list a:hover {
     color: #00b2e4
 }
-
-.home section {}
-
-@media (max-width:767px) {
-    .home section {
-    }
-}
-
 .home .pagination {
     text-align: right
 }
@@ -11001,15 +10891,15 @@ p .sitebar button span #nav>li>a.has-drop-down-a span:before {
     min-height: 158vh;
     min-width: 165.77vh;
     position: absolute;
-    top: -242px;
+    top: -180px;
     left: 50%;
     transform: translateX(-50%)
 }
 
 @media (max-width:767px) {
     .main-banner iframe {
-        min-height: 144vh;
-        height: 57.25vw
+        min-height: 150vh;
+        height: 57.25vw;
     }
 }
 
@@ -12734,14 +12624,15 @@ iframe {
     color: #00b2e4
 }
 
-.home section {
+.home {
     display: flex;
     flex-direction: column;
     justify-content: inherit;
+    background-image: linear-gradient(#bbbbbb, #181818);
 }
 
 @media (max-width:767px) {
-    .home section {
+    .home {
         min-height: 100vh;
     }
 }
@@ -14077,6 +13968,7 @@ button.btn {
     height: auto;
     position: relative;
     top: 25%;
+    
 }
 
 @media(max-width:767px) {
@@ -14086,7 +13978,7 @@ button.btn {
 
     .flip-box {
         width: 100vw;
-        height: 25vh;
+        height: 27vh;
     }
 
     .flip-box-front img {
@@ -14102,16 +13994,28 @@ button.btn {
     background-color: gray;
 }
 .membros{
-    top: 50%;
+    background-image: url(../images/castle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.membros h1{
+.membros h2,h1{
     text-align: center;
     margin: 40px;
+}
+.membros a{
+    position: absolute;
+    font-size: 18px;
 }
 @media(max-width:767px) {
 
 }
 
+/*-----Galeria--------*/
+.owl-carousel .owl-item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 /*-------------------------------------------*/
 .text {
     text-align: justify;
