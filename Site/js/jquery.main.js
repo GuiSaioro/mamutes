@@ -26,8 +26,19 @@ jQuery(function(){
 	initListProductTypeDetailPageFiltering();
 });
 
+
+
 $(window).load(function(){
     //initMenuCropping();
+	$('a[href^="#videos"]').on('click', function(e) {
+		e.preventDefault();
+		var id = $(this).attr('href'),
+		targetOffset = $(id).offset().top;
+		  
+		$('html, body').animate({ 
+		  scrollTop: targetOffset - 100
+		}, 3000);
+	  });
 });
 function initProductPaginationChange()
 {
