@@ -85,7 +85,7 @@
     mix-blend-mode: screen;
     left: 0;
     top: 0;
-    background: rgba(247, 148, 30, 0.75);
+    background: rgb(44 125 247);
     z-index: 1;
     transition: all 250ms ease-out;
 }
@@ -99,13 +99,13 @@
     mix-blend-mode: screen;
     left: 0;
     top: 0;
-    background: rgba(247, 148, 30, 0.30);
+    background: rgba(244 125 247, 0.30);
     z-index: 1;
     transition: all 1s ease-out;
 }
 
 .video-thumb:not(.active):hover:before {
-    background: rgba(247, 148, 30, 0.30);
+    background: rgb(44 125 247);
 }
 
 .video-thumb:after {

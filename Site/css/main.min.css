@@ -13990,11 +13990,11 @@ button.btn {
 /* membros-section*/
 
 .membros-section{
-    min-height: 100vh;
-    background-color: gray;
+    min-height: 90vh;
+    background-image: url(../images/castle.jpg);
 }
 .membros{
-    background-image: url(../images/castle.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14011,10 +14011,13 @@ button.btn {
 }
 
 /*-----Galeria--------*/
-.owl-carousel .owl-item img{
-    display: block;
-    width: 100%;
-    height: auto;
+.youtube{
+    background-image: url(../images/bg-medieval.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.youtube h1{
+    color: white;
 }
 /*-------------------------------------------*/
 .text {
