@@ -1,29 +1,29 @@
 ﻿// page init
 jQuery(function(){
 	initTouchNav();
-	initProductPaginationChange();
-	initProductTypePaginationChange();
-	initIndustriesPaginationChange();
+	//initProductPaginationChange();
+	//initProductTypePaginationChange();
+	//initIndustriesPaginationChange();
 	initMobileNav();
 	initDropDownClasses();
-	initCustomHover();
+	//initCustomHover();
 	initHeaderSmallScroll();
-	initSitebarClick();
-	initContactLocationDrop();
-	initContactReasonDrop();
-	initProceedBTNClick();
-	initFindLocation();
-	initFilterButton();
-	initSlider();
-	initHomeSlider();
-	initTabs();
-	initAccordion();
-	initAnchors();
-	initListLocationFiltering();
-	initProductFiltering();
-	initListRepresentativesFiltering();
-	initListIndustryDetailPageFiltering();
-	initListProductTypeDetailPageFiltering();
+	//initSitebarClick();
+	//initContactLocationDrop();
+	//initContactReasonDrop();
+	//initProceedBTNClick();
+	//initFindLocation();
+	//initFilterButton();
+	//initSlider();
+	//initHomeSlider();
+	//initTabs();
+	//initAccordion();
+	//initAnchors();
+	//initListLocationFiltering();
+	//initProductFiltering();
+	//initListRepresentativesFiltering();
+	//initListIndustryDetailPageFiltering();
+	//initListProductTypeDetailPageFiltering();
 });
 
 
