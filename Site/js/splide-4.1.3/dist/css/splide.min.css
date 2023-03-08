@@ -117,7 +117,7 @@
 }
 @media(max-width:767px) {
     .splide__track {
-        height: 73vh;
+        min-height: 73vh;
         width: 80em;
         left: -25.8em;
     }

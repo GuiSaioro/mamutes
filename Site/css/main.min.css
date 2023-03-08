@@ -6646,8 +6646,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span:before {
 
 @media (max-width:767px) {
     .main-banner iframe {
-        min-height: 150vh;
-        height: 57.25vw;
+        min-height: 850px;
     }
 }
 
@@ -7706,7 +7705,7 @@ button.btn {
 .flip-box {
     background-color: transparent;
     width: 20vw;
-    height: 60vh;
+    height: 70vh;
     border: 0 solid #4a4a4a;
     perspective: 1000px;
 }
@@ -7775,8 +7774,9 @@ button.btn {
     }
 
     .flip-box {
-        width: 100vw;
-        height: 27vh;
+        min-width: 100vw;
+        min-height: 27vh;
+        max-height: 80vh;
     }
 
     .flip-box-front img {
@@ -7822,6 +7822,7 @@ h1 {
     background-image: url(../images/bg-medieval.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 650px;
 }
 
 .youtube h1 {
