@@ -27,7 +27,6 @@ summary {
 
 audio,
 canvas,
-progress,
 video {
     display: inline-block;
     vertical-align: baseline
@@ -137,14 +136,6 @@ button {
 button,
 select {
     text-transform: none
-}
-
-button,
-html input[type=button],
-input[type=reset],
-input[type=submit] {
-    -webkit-appearance: button;
-    cursor: pointer
 }
 
 button[disabled],
