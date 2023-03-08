@@ -10,23 +10,6 @@
     list-style: none
 }
 
-.cms_ecommerce .cms_col_10:after,
-.cms_ecommerce .cms_col_11:after,
-.cms_ecommerce .cms_col_12:after,
-.cms_ecommerce .cms_col_1:after,
-.cms_ecommerce .cms_col_2:after,
-.cms_ecommerce .cms_col_3:after,
-.cms_ecommerce .cms_col_4:after,
-.cms_ecommerce .cms_col_5:after,
-.cms_ecommerce .cms_col_6:after,
-.cms_ecommerce .cms_col_7:after,
-.cms_ecommerce .cms_col_8:after,
-.cms_ecommerce .cms_col_9:after {
-    content: "";
-    display: block;
-    clear: both
-}
-
 .system_pagination,
 .system_pagination * {
     box-sizing: border-box
