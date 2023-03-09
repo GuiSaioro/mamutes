@@ -128,7 +128,7 @@
     
     
     <main role="main">
-        <section class="main-banner home" id="home" style="background-image: url(/Site/images/home-video.png)">
+        <section class="main-banner-membro" id="home" style="background-image: url(/Site/images/home-video.png)">
             <iframe
                 src="https://player.vimeo.com/video/715551758?autoplay=1&h=8914dac98b&background=1&loop=1&autoplay=1&muted=1&byline=0&title=0&quality=1080p"
                 allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen="" mozallowfullscreen=""
@@ -136,18 +136,29 @@
         </section>
             
         </section>
-        <section class="membro-section">
+        <section class="membro-section-principal">
             <div class=" membro-principal">
                     <div class="membro-foto">
-                        <img src="images/integrantes/Pessoal/2-capa.png" alt=""> 
+                        <picture>
+                        <source media="(min-width:1199px )" srcset="images/integrantes/Pessoal/2-capa.png">
+                        <source media="(min-width:0 )" srcset="images/integrantes/Pessoal/2-capa-mobile.png">
+                        <img src="images/integrantes/Pessoal/2-capa.png" alt="">
+                        </picture> 
                     </div>
                     <div class="membro-texto">
-                        <h1>HAZYEL</h1>
                         <img src="images/membro-nome-bg.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+                        <h1>HAZYEL</h1>
+                        <ul>
+                            <li><h3>NOME:</h3><h3>Valmir</h3></li>
+                            <li> <h3>IDADE:</h3><h3>62</h3></li>
+                            <li><h3>CATEGORIA:</h3><h3>Peso Leve</h3></li>
+                            <li><h3>DE:</h3><h3>Rio de Janeiro</h3></li>
+                            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
                             iste maiores asperiores inventore ad optio voluptas sint voluptate
                             tempora minima facilis nulla, enim soluta quibusdam reprehenderit excepturi vitae ipsa perferendis.</p>
-                    </div>
+                            </li>
+                        </ul>
+                </div>
             </div>                 
         </section>
         <section class="membros-section home" id="membros-id">

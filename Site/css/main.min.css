@@ -6569,7 +6569,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span::before {
 
 @media (max-width: 767px) {
   .home {
-    min-height: 100vh;
+    min-height: 77vh;
   }
 }
 
@@ -7549,7 +7549,7 @@ button.btn {
 }
 
 .membros-section {
-  min-height: 90vh;
+  min-height: 60vh;
   background-image: url("../images/castle.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -7585,10 +7585,12 @@ h1 {
   color: white;
 }
 
-.membro-section {
-  height: 97vh;
+.membro-section-principal {
   width: 100vw;
   display: flex;
+  background-image: url("../images/bg-membros.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .membro-principal {
@@ -7602,7 +7604,7 @@ h1 {
 }
 
 .membro-foto img {
-  width: 70vh;
+  width: 70%;
   height: auto;
   position: relative;
   z-index: 999;
@@ -7610,14 +7612,169 @@ h1 {
 }
 
 .membro-texto {
-  max-width: 45vw;
+  max-width: 50vw;
 }
+
+.membro-texto h1 {
+  font-size: 6rem;
+  color: white;
+  position: relative;
+  text-align: inherit;
+  z-index: 1;
+  margin-bottom: 90px;
+}
+
+.membro-texto h3 {
+  color: rgb(255, 255, 255);
+}
+
 .membro-texto img {
-  position: absolute;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  right: 0;
-  top: 74px;
+  top: 140px;
+  position: relative;
+  height: 100%;
+  right: 175px;
+}
+
+.membro-texto p {
+  text-align: justify;
+  width: 60%;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.membro-texto li {
+  list-style: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1199px) {
+  .membro-principal {
+    display: block;
   }
- 
+  .membro-foto,
+  .membro-texto {
+    width: 100vw;
+    height: 20%;
+    text-align: center;
+  }
+  .membro-texto h1{
+  font-size: 5.2rem;
+  margin: 100px 0px 15px 10px;
+  }
+  .membro-texto img {
+  height: 47%;
+  right: 15vw;
+  width: fit-content;
+  top: 210px;
+  }
+  .membro-texto li{
+    width: 90vw;
+  }
+
+  .membro-foto img {
+    width: auto;
+  }
+  .membro-texto ul{
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    margin: auto;
+  }
+  .membro-texto p{
+  width: auto;
+  margin: 20px 0;
+  }
+}
+.main-banner-membro {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  clip-path: polygon(0% 0%, 0% 100%, 100% calc(100%), 100% 0%);
+  z-index: 100;
+  background-color: rgb(66, 126, 238);
+}
+
+@media (max-width: 1439px) {
+  .main-banner-membro {
+    clip-path: polygon(0% 0%, 0% 100%, 100% calc(100%), 100% 0%);
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main-banner-membro {
+    clip-path: polygon(0% 0%, 0% 100%, 100% calc(100%), 100% 0%);
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-banner-membro {
+    clip-path: polygon(0% 0%, 0% 100%, 100% calc(100%), 100% 0%);
+  }
+}
+
+.main-banner-membro .holder {
+  padding: 150px 0px 200px;
+  max-width: 900px;
+}
+
+@media (max-width: 1023px) {
+  .main-banner-membro .holder {
+    padding: 80px 0px 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-banner-membro .holder {
+    padding: 80px 0px 50px;
+  }
+}
+
+.main-banner-membro::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+}
+
+.main-banner-membro .container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.main-banner-membro p {
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.main-banner-membro iframe {
+  width: 100vw;
+  height: 70.25vw;
+  min-height: 100vh;
+  min-width: 177.77vh;
+  position: absolute;
+  top: -500px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .main-banner-membro iframe {
+    min-height: 100%;
+    top: 0;
+  }
+}
