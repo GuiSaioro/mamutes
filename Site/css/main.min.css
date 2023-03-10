@@ -7470,7 +7470,7 @@ button.btn {
 .flip-box {
   background-color: transparent;
   width: 20vw;
-  height: 70vh;
+  height: 50vh;
   border: 0px solid rgb(74, 74, 74);
   perspective: 1000px;
 }
@@ -7499,21 +7499,29 @@ button.btn {
 .flip-box-front {
   background-color: rgb(187, 187, 187);
   color: black;
+  background-color: #1a0505;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .flip-box-back {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
-}
+ }
 
 .flip-box-back h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding: 20px;
   text-align: justify;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
-
+.flip-box-back h4{
+  font-size: 2rem;
+}
 .links a {
   display: block;
 }
@@ -7537,14 +7545,15 @@ button.btn {
   }
 
   .flip-box {
-    min-width: 100vw;
-    min-height: 50vh;
-    max-height: 32vh;
+    /* min-width: 100vw; */
+    /* min-height: 50vh; */
+    /* max-height: 32vh; */
+    width: 100vw;
   }
 
   .flip-box-front img {
-    width: 98px;
-    height: auto;
+    /* width: 20vh; */
+    /* height: auto; */
   }
 }
 
