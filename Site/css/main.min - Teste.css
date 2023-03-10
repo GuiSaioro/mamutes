@@ -7565,10 +7565,9 @@ button.btn {
 }
 
 .membros a {
-  position: relative;
-  /* position: absolute; */
-  font-size: 40px;
-  padding-left: 38px;
+  position: absolute;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .membros a:hover {
@@ -7659,15 +7658,14 @@ button.btn {
   .membro-principal {
     display: block;
   }
-  .membro-foto,
-  .membro-texto {
+  .membro-foto {
     width: 100vw;
     height: 20%;
     text-align: center;
   }
   .membro-texto h1{
   font-size: 5.2rem;
-  margin: 100px 0px 15px 10px;
+  margin: 75px 0px 15px 10px;
   }
   .membro-texto img {
   height: 47%;
