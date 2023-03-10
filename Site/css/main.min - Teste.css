@@ -3154,7 +3154,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span::before {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  min-height: 600px;
+  /* min-height: 600px; */
   position: relative;
   color: rgb(255, 255, 255);
   display: flex;
@@ -3167,8 +3167,8 @@ p .sitebar button span #nav>li>a.has-drop-down-a span::before {
 
 @media (max-width: 1439px) {
   .main-banner {
-    clip-path: polygon(0% 0%, 0% 100%, 100% calc(100%), 100% 0%);
-    min-height: 400px;
+    /* clip-path: polygon(0% 0%, 0% 100%, 100% calc(100%), 100% 0%); */
+    /* min-height: 400px; */
   }
 }
 
@@ -6417,7 +6417,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span::before {
   z-index: 2;
   position: relative;
   width: 100%;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .main-banner p {
@@ -6561,10 +6561,10 @@ p .sitebar button span #nav>li>a.has-drop-down-a span::before {
 }
 
 .home {
-  display: flex;
-  flex-direction: column;
-  justify-content: inherit;
-  background-image: linear-gradient(rgb(187, 187, 187), rgb(24, 24, 24));
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: inherit; */
+  /* background-image: linear-gradient(rgb(187, 187, 187), rgb(24, 24, 24)); */
 }
 
 @media (max-width: 767px) {
@@ -7779,13 +7779,13 @@ h1 {
   }
 }
 /*-----------------------------------------------*/
+.video-container{max-height: 0vh;}
+
 .video-container iframe {
-  position: absolute;
-  top: 50%;
+  position: relative;
   left: 50%;
-  width: 100vw;
   height: 100vh;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   pointer-events: none;
 }
 @media (min-aspect-ratio: 16/9) {
@@ -7795,6 +7795,6 @@ h1 {
 }
 @media (max-aspect-ratio: 16/9) {
   .video-container iframe {
-    width: 177.78vh;
+    width: 174.78vh;
   }
 }
