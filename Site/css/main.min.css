@@ -7810,3 +7810,16 @@ button.btn {
     width: 177.78vh;
   }
 }
+
+.time-mexe{
+  background-size: cover;
+    background-repeat: no-repeat;
+    width: fit-content;
+    position: relative;
+    bottom: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.time-mexe img{
+  position: relative;
+}
