@@ -6417,8 +6417,7 @@ p .sitebar button span #nav>li>a.has-drop-down-a span::before {
   z-index: 2;
   position: relative;
   width: 100%;
-  padding: 0;
-  margin: auto;
+  padding-top: 100px;
 }
 
 .main-banner p {
@@ -7540,11 +7539,11 @@ button.btn {
   .flip-box {
     min-width: 100vw;
     min-height: 50vh;
-    max-height: 60vh;
+    max-height: 32vh;
   }
 
   .flip-box-front img {
-    width: 10%;
+    width: 98px;
     height: auto;
   }
 }
@@ -7556,16 +7555,20 @@ button.btn {
   background-size: cover;
 }
 
-.membros h2,
-h1 {
+.membros h2 {
   text-align: center;
   margin: 40px;
 }
+.membros h1 {
+  text-align: center;
+  margin: 50px 0;
+}
 
 .membros a {
-  position: absolute;
-  font-size: 20px;
-  padding-left: 10px;
+  position: relative;
+  /* position: absolute; */
+  font-size: 40px;
+  padding-left: 38px;
 }
 
 .membros a:hover {
@@ -7584,6 +7587,7 @@ h1 {
 
 .youtube h1 {
   color: white;
+  text-align: center;
 }
 
 .membro-section-principal {

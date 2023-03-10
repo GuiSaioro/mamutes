@@ -7555,10 +7555,13 @@ button.btn {
   background-size: cover;
 }
 
-.membros h2,
-h1 {
+.membros h2 {
   text-align: center;
   margin: 40px;
+}
+.membros h1 {
+  text-align: center;
+  margin: 50px 0;
 }
 
 .membros a {
@@ -7583,6 +7586,7 @@ h1 {
 
 .youtube h1 {
   color: white;
+  text-align: center;
 }
 
 .membro-section-principal {

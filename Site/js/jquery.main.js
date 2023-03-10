@@ -4,6 +4,7 @@ jQuery(function(){
 	initMobileNav();
 	initDropDownClasses();
 	initHeaderSmallScroll();
+	
 });
 
 
@@ -29,6 +30,14 @@ $(window).load(function(){
 		}, 3000);
 	  });
 });
+
+function abrirLink(link) {
+	setTimeout(function() {
+		window.open(link, '_blank');
+	}, 1500); // delay de 5 segundos
+
+}
+
 // mobile menu init
 function initMobileNav() {
 	jQuery('body').mobileNav({
