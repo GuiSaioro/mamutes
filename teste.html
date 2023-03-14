@@ -9,36 +9,21 @@
     
     
 </head>
-<body>
-    <button id="slowmo">Slow motion <span>mode</span></button>
-
-<div>
-	<div class="container">
-		<button id="burger" class="open-main-nav">
-			<span class="burger"></span>
-			<span class="burger-text">Menu</span>
-		</button>
-		<nav class="main-nav" id="main-nav">
-			<ul>
-				<li>
-					<a href="#">About me</a>
-				</li>
-				<li>
-					<a href="#">Speaker &amp; Writer</a>
-				</li>
-				<li>
-					<a href="#">Work</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
-				</li>
-				<li>
-					<a href="#">Blog</a>
-				</li>
-			</ul>
-		</nav>
+<body >
+    <div style="margin: auto;" id="bodyy">
+		<img src="Site/images/2-capa.png" alt="" usemap="#armaduramap" >
+		<map name="armaduramap">
+			<area shape="rect" coords="234,0,384,206" alt="elmo" id="elmo" style="cursor: pointer;">
+			
+			<area shape="rect" coords="52%,89%,65%,100%" alt="sabaton" id="sabaton2" style="cursor: pointer;">                              
+			</map>
 	</div>
-</div>
 </body>
-<script type="" src="javascript.js"></script>
+<script>
+	$('#elmo').mouseover(function() {
+        $('body').addClass('yy');                                
+    });
+</script>
+
+<script src="Site/cms-assets/ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </html>

@@ -7822,7 +7822,6 @@ button.btn {
   transform: translateX(-50%);
   margin: 40px 0;
   height: auto;
-  width: 100%;
 }
 #elmotext{
   /*right: 10%;*/
@@ -7879,7 +7878,7 @@ button.btn {
   font-size: 30px;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 740px) {
   .item02 {grid-area: footer;}
   .item03 {grid-area: footer;}
   .item04 {grid-area: footer;}
